@@ -45,10 +45,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans    &kp UP_ARROW  &trans     &trans  &trans    &trans  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans  &trans
-&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans    &trans        &trans     &trans  &trans    &trans  &trans          &trans          &trans           &trans  &trans
-                                &trans     &trans  &trans    &trans  &trans          &trans
+&trans  &trans    &kp UP_ARROW  &trans     &trans  &trans    &msc SCRL_UP    &mkp MB1         &mmv MOVE_UP    &mkp MB2         &trans  &trans
+&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans    &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans    &trans        &trans     &trans  &trans    &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans          &trans           &trans  &trans
+                                &trans     &trans  &trans    &trans          &trans           &trans
             >;
         };
 
