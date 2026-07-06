@@ -7,7 +7,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.2
+      revision: v0.3
       import: app/west.yml
+    - name: corne-min-rgbled
+      url: https://github.com/MechboardsLTD/zmk-module
+      revision: corne-min-rgbled
+    - name: corne-min-board
+      url: https://github.com/MechboardsLTD/zmk-module
+      revision: corne-min
   self:
     path: config
